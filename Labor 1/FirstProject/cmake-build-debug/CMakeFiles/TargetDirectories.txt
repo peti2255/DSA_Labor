@@ -1,0 +1,3 @@
+D:/Egyetem/DSA_Labor/Labor 1/FirstProject/cmake-build-debug/CMakeFiles/FirstProject.dir
+D:/Egyetem/DSA_Labor/Labor 1/FirstProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Egyetem/DSA_Labor/Labor 1/FirstProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
