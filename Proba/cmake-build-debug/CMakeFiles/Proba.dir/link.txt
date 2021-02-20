@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Proba.dir/main.c.o  -o Proba 

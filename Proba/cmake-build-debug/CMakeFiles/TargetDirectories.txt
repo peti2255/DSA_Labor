@@ -1,0 +1,3 @@
+/media/peti/Tároló/Egyetem/DSA_Labor/Proba/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/peti/Tároló/Egyetem/DSA_Labor/Proba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/peti/Tároló/Egyetem/DSA_Labor/Proba/cmake-build-debug/CMakeFiles/Proba.dir
