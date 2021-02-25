@@ -18,6 +18,7 @@ int main() {
     }
     for (int i = 0; i < n; ++i) {
         array[i]=rand()%100;
+
     }
     if(linearis_kereses(array,n,num)==-1)
     {
