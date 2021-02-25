@@ -1,3 +1,0 @@
-D:/Egyetem/DSA_Labor/Gyakorlat_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Egyetem/DSA_Labor/Gyakorlat_1/cmake-build-debug/CMakeFiles/Gyakorlat_1.dir
-D:/Egyetem/DSA_Labor/Gyakorlat_1/cmake-build-debug/CMakeFiles/edit_cache.dir
