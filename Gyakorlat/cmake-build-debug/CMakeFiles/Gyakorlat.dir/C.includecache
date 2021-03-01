@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
+D:/Egyetem/DSA_Labor/Gyakorlat/linearis_kereses.c
+linearis_kereses.h
 D:/Egyetem/DSA_Labor/Gyakorlat/linearis_kereses.h
-
-D:/Egyetem/DSA_Labor/Gyakorlat/main.c
 stdio.h
 -
-stdlib.h
+stdbool.h
 -
-time.h
--
-linearis_kereses.h
+
 D:/Egyetem/DSA_Labor/Gyakorlat/linearis_kereses.h
 

@@ -17,16 +17,28 @@ int main() {
         return -1;
     }
     for (int i = 0; i < n; ++i) {
-        array[i]=rand()%100;
+        array[i]=rand()%99;
 
     }
-    if(linearis_kereses(array,n,num)==-1)
+    printf("A tomb elemei: ");
+    rendezes(array,n);
+    egyszeru(array,n);
+    kiir(array,n);
+    int linear =linearis_kereses(array,n,num), binary = binarisKereses(array,0,n,num);
+    if(linear==-1)
     {
-        printf("A keresett elem nincs a tombbe");
+        printf("A keresett elem nincs a tombbe(Linearis) :( \n" );
     }
     else
     {
-        printf("A keresett elem: %i",linearis_kereses(array,n,num));
+        printf("Linearis kereses: %i \n",linear);
+    }
+    if(binary == -1)
+    {
+        printf("A keresett elem nincs a tombben(Binaris) :( \n");
+    }else
+    {
+        printf("Binaris Kereses: %i \n",binary);
     }
 
     free(array);
