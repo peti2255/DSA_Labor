@@ -9,6 +9,6 @@ int main() {
     printf("Add meg a masodik pont koordinatait: ");
         scanf("%i",&b1);
         scanf("%i",&b2);
-    printf("A ket pont kozotti tavolsag: %i",tavolsag(a1,a2,b1,b2));
+    printf("A ket pont  kozotti tavolsag: %i",tavolsag(a1,a2,b1,b2));
     return 0;
 }
