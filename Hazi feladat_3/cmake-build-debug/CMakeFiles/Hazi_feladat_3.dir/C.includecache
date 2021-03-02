@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Egyetem/DSA_Labor/Hazi feladat_3/function.c
+function.h
+D:/Egyetem/DSA_Labor/Hazi feladat_3/function.h
+math.h
+-
+stdio.h
+-
+
+D:/Egyetem/DSA_Labor/Hazi feladat_3/function.h
+
