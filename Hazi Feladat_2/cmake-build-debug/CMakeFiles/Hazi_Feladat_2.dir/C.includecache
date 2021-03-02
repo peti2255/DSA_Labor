@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Egyetem/DSA_Labor/Hazi Feladat_2/function.h
+
+D:/Egyetem/DSA_Labor/Hazi Feladat_2/main.c
+stdio.h
+-
+function.h
+D:/Egyetem/DSA_Labor/Hazi Feladat_2/function.h
+

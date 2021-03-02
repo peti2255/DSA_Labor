@@ -1,0 +1,3 @@
+D:/Egyetem/DSA_Labor/Hazi Feladat_2/cmake-build-debug/CMakeFiles/Hazi_Feladat_2.dir
+D:/Egyetem/DSA_Labor/Hazi Feladat_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Egyetem/DSA_Labor/Hazi Feladat_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
