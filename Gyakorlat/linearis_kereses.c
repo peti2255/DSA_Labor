@@ -64,3 +64,6 @@ void rendezes(int* array,int n)
 {
     qsort(array,n,sizeof(int),compare);
 }
+// binaris beillesztes
+//gyakorlo 3,4,5;
+// qsort vs bubble sort
