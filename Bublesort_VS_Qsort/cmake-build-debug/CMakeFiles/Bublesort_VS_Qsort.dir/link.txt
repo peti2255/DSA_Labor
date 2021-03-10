@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Bublesort_VS_Qsort.dir/objects.a
+C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\Bublesort_VS_Qsort.dir/objects.a @CMakeFiles\Bublesort_VS_Qsort.dir\objects1.rsp
+C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Bublesort_VS_Qsort.dir/objects.a -Wl,--no-whole-archive  -o Bublesort_VS_Qsort.exe -Wl,--out-implib,libBublesort_VS_Qsort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Bublesort_VS_Qsort.dir\linklibs.rsp

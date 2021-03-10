@@ -1,0 +1,3 @@
+D:/Egyetem/DSA_Labor/Bublesort_VS_Qsort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Egyetem/DSA_Labor/Bublesort_VS_Qsort/cmake-build-debug/CMakeFiles/Bublesort_VS_Qsort.dir
+D:/Egyetem/DSA_Labor/Bublesort_VS_Qsort/cmake-build-debug/CMakeFiles/edit_cache.dir
