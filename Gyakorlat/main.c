@@ -50,7 +50,7 @@ int main() {
         _sleep(3);
         end = clock();
         cpu_time_used = ((double ) (end-start)) / CLOCKS_PER_SEC;
-        printf("%i - utolso elem Elapsed time: %lf\n\n",n,cpu_time_used);
+        printf("%i - utolso elem Elapsed time: %lf\n",n,cpu_time_used);
 
         start = clock();
         printf("Result: %i\n",binarisKereses(array,0,n-1,array[0]));
@@ -58,12 +58,11 @@ int main() {
         end = clock();
         cpu_time_used = ((double ) (end-start)) / CLOCKS_PER_SEC;
         printf("%i - kozepso Elapsed time: %lf => ",n,cpu_time_used);
+
+        printf("\n");
         free(array);
     }
 
-
-//    printf("Add meg a keresett elemet: ");
-//    scanf("%i",&num);
 
 
 //    if(linear==-1)
@@ -74,7 +73,7 @@ int main() {
 //    {
 //        printf("Linearis kereses: %i \n",linear);
 //    }
-
+//
 //    if(binary == -1)
 //    {
 //        printf("A keresett elem nincs a tombben(Binaris) :( \n");
