@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Egyetem/DSA_Labor/Gyakorlat/adatok.c
+adatok.h
+D:/Egyetem/DSA_Labor/Gyakorlat/adatok.h
+stdlib.h
+-
+stdio.h
+-
+
+D:/Egyetem/DSA_Labor/Gyakorlat/adatok.h
+
