@@ -31,20 +31,18 @@ void destroyArray(IntArray* array){
     free(array);
     printf("Array destroyd!\n");
 }
-void readArray(const char *fileName, IntArray *array)
-{
-    FILE * input = fopen(fileName, "r");
-    //ellenorzes
-    if(fileName == NULL)
-    {
-        printf("Sikertelen allomany meghivas");
-        exit(1);
+void readArray(const char *filename,IntArray* *array){
+
+    FILE *in;
+    in=fopen(filename,"r");
+    if(in==NULL) exit(1);
+    int dimension;
+    fscanf(in,"%d",&dimension);
+    (*array)=creatArray(dimension);
+    for (int i = 0; i < (*array)->size; ++i) {
+        fscanf(in,"%d",&(*array)->element[i]);
     }
-    // beolvasas
-    fscanf(input,"%i ",&array->size);
-    for (int i = 0; i < array->size; ++i) {
-        fscanf(input,"%i",&array->element[i]);
-    }
+    fclose(in);
 }
 void fillArray(IntArray* array, int dimension, int first, int last)
 {

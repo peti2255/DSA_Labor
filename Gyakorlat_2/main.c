@@ -13,10 +13,10 @@ int main() {
 
     IntArray* array = creatArray(dimension);
     IntArray* arrayto = creatArray(dimension1);
-
-    readArray("IntArray.txt", array);
+    IntArray *array2;
+    readArray("IntArray.txt", &array2);
     printf("Allomany tartalma: ");
-    printArray(array);
+    printArray(array2);
     fillArray( array, dimension, first, last);
     printf("Random szammal feltoltott tomb: ");
     printArray(array);
@@ -38,6 +38,7 @@ int main() {
     printf("A keresett elem a %i-ik pozicion van (Linear) \n",linearSearch(array,element1));
     printf("A keresett elem a %i-ik pozicion van (Binary) \n",binarySearch(array,0,array->size,element1));
     destroyArray(array);
+    destroyArray(array2);
     destroyArray(arrayto);
     return 0;
 }

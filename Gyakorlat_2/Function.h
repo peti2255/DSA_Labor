@@ -12,7 +12,7 @@ typedef struct IntArray{
 
 IntArray* creatArray(int dimension);
 void destroyArray(IntArray* array);
-void readArray(const char* fileName, IntArray* array);
+void readArray(const char *filename,IntArray* *array);
 void fillArray(IntArray* array, int dimension, int first, int last);
 void printArray(IntArray* array);
 void printArrayToFile(const char* fileName, IntArray* array);
