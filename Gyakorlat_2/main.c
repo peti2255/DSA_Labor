@@ -13,8 +13,7 @@ int main() {
 
     IntArray* array = creatArray(dimension);
     IntArray* arrayto = creatArray(dimension1);
-    destroyArray(array);
-    destroyArray(arrayto);
+
     readArray("IntArray.txt", array);
     printf("Allomany tartalma: ");
     printArray(array);
@@ -38,8 +37,7 @@ int main() {
     printArray(arrayto);
     printf("A keresett elem a %i-ik pozicion van (Linear) \n",linearSearch(array,element1));
     printf("A keresett elem a %i-ik pozicion van (Binary) \n",binarySearch(array,0,array->size,element1));
-
-    free(arrayto);
-    free(array);
+    destroyArray(array);
+    destroyArray(arrayto);
     return 0;
 }

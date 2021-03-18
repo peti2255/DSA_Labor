@@ -10,17 +10,26 @@
 IntArray* creatArray(int dimension)
 {
     IntArray* array = (IntArray*)malloc(sizeof (IntArray));
-    array->element = (int*)malloc(dimension*sizeof (int));
     array->size = dimension;
-    return array;
-
-    }
-void destroyArray(IntArray* array){
+    array->element = (int*)malloc(dimension*sizeof (int));
     if(array == NULL)
     {
         printf("Sikertelen helyfoglalas");
         exit(1);
-}
+    }
+    if(array == NULL)
+    {
+        printf("Sikertelen helyfoglalas");
+        exit(1);
+    }
+
+    return array;
+
+    }
+void destroyArray(IntArray* array){
+    free(array->element);
+    free(array);
+    printf("Array destroyd!\n");
 }
 void readArray(const char *fileName, IntArray *array)
 {
