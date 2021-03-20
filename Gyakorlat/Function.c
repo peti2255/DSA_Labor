@@ -42,7 +42,8 @@ void push(STACK *myStack, int item) {
     {
         myStack->sp++;
         myStack->items[myStack->sp] = item;
-    } else
+    }
+    else
     {
         printf("A verem teli");
     }
