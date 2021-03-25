@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Egyetem/DSA_Labor/Gyakorlat/Stack.h
+stdbool.h
+-
+
+D:/Egyetem/DSA_Labor/Gyakorlat/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+Stack.h
+D:/Egyetem/DSA_Labor/Gyakorlat/Stack.h
+
