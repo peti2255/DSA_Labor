@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Egyetem/DSA_Labor/Gyakorlat/Function.h
+
+D:/Egyetem/DSA_Labor/Gyakorlat/main.c
+stdio.h
+-
+Function.h
+D:/Egyetem/DSA_Labor/Gyakorlat/Function.h
+
