@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Egyetem/DSA_Labor/Parcialis/Auto.h
+
+D:/Egyetem/DSA_Labor/Parcialis/AutoVerem.c
+AutoVerem.h
+D:/Egyetem/DSA_Labor/Parcialis/AutoVerem.h
+stdlib.h
+-
+stdio.h
+-
+stdbool.h
+-
+limits.h
+-
+Auto.h
+D:/Egyetem/DSA_Labor/Parcialis/Auto.h
+
+D:/Egyetem/DSA_Labor/Parcialis/AutoVerem.h
+stdbool.h
+-
+stdio.h
+-
+Auto.h
+D:/Egyetem/DSA_Labor/Parcialis/Auto.h
+

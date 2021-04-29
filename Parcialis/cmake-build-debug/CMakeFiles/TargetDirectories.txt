@@ -1,0 +1,3 @@
+D:/Egyetem/DSA_Labor/Parcialis/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Egyetem/DSA_Labor/Parcialis/cmake-build-debug/CMakeFiles/Parcialis.dir
+D:/Egyetem/DSA_Labor/Parcialis/cmake-build-debug/CMakeFiles/edit_cache.dir
