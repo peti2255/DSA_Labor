@@ -8,7 +8,7 @@ activity	tevékenység
 actor	színész
 actress	színésznő
 actual	tényleges
-actually	tulajdonképpen
+actually tulajdonképpen
 ad	hirdetés
 adapt	alkalmazkodni
 add	hozzá
@@ -24,7 +24,7 @@ admire	csodál
 admission	belépés
 admit	beismerni
 adolescent	serdülő
-adopt	fogadja el
+adopt	fogadjael
 adult	felnőtt
 advance	előleg
 advanced	fejlett
